@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: >
+        hledger-web
+        --serve
+        --host=0.0.0.0
+        --base-url=http://127.0.0.1:5000
+        --file=/data/hledger.journal
+    ports:
+      - "5000:5000"
+    volumes:
+      - $HOME/hledger-data:/data

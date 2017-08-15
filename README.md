@@ -39,7 +39,6 @@ For example, `--base-url=https://example.com/hledger`.
 
 # What is the chain of base builds?
 
-0. `ubuntu:16.04` https://hub.docker.com/_/ubuntu/
 1. `haskell` <https://hub.docker.com/_/haskell/>
 2. `bradyt/docker-compose-build` <https://hub.docker.com/r/bradyt/docker-hledger-build/>
 3. `bradyt/docker-compose-bin` <https://hub.docker.com/r/bradyt/docker-hledger-bin>

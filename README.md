@@ -8,7 +8,7 @@ The image that it pulls is thin for your convenience. The image was
 built with two Dockerfiles, one that takes about two hours to build on
 Docker Hub, and a second that pulls that fat image and uses Docker's
 new-ish multistage feature to build a thin image with all the hledger
-exectuables.
+executables.
 
 # Quickstart
 
